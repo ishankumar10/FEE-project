@@ -1,12 +1,14 @@
 body {
+	background-color: #2D033B;
 	margin: 0;
 	font-family: Arial;
+	border: 2px red;
 }
 
 header {
-	color: #451952;
+	color: white;
 	border-radius: 10px;
-	background-color: #f39f5a;
+	background-color: #810CA8;
 	height: 160px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 30px;
@@ -55,6 +57,7 @@ header {
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-around;
+	align-items:start;
 	color: #451952;
 	text-align: center;
 }
@@ -77,6 +80,7 @@ header {
 
 .book {
 	border: 2px solid #ff6978;
+	color: white;
 	border-radius: 5px;
 	width: 170px;
 	height: 240px;
@@ -100,6 +104,8 @@ div.scroll-container img {
 }
 
 .share-buttons {
+	display: flex;
+	justify-content: center;
 	position: absolute;
 	top: 130px;
 	left: 1170px;
